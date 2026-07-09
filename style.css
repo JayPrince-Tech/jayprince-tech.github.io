@@ -48,3 +48,20 @@ div{
     margin:20px 0;
     border-radius:12px;
 }
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav ul{
+    display:flex;
+    gap:20px;
+    list-style:none;
+    padding:0;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
