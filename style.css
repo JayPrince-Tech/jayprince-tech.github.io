@@ -117,38 +117,21 @@ nav a{
   margin: 0;
 }
 .features {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: center;
   gap: 18px;
-  max-width: 900px;
   margin: 60px auto 100px;
   padding: 0 20px;
 }
 
 .feature-box {
+  width: 30%;
+  max-width: 280px;
+  min-height: 170px;
   background: #111a2d;
   border: 1px solid #3869e8;
   border-radius: 18px;
-  padding: 28px 20px;
+  padding: 25px 18px;
   text-align: center;
-  min-height: 170px;
   box-sizing: border-box;
-}
-
-.feature-icon {
-  font-size: 38px;
-  margin-bottom: 12px;
-}
-
-.feature-box h3 {
-  margin: 0 0 12px;
-  color: #ffffff;
-  font-size: 20px;
-}
-
-.feature-box p {
-  margin: 0;
-  color: #c7cedd;
-  font-size: 16px;
-  line-height: 1.5;
 }
