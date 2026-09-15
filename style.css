@@ -1,4 +1,4 @@
-body {
+ body {
     background-color: #111827;
     color: white;
     font-family: Arial, sans-serif;
@@ -117,7 +117,8 @@ nav a{
   margin: 0;
 }
 .features {
-  display: flex;
+  flex-direction: row;
+    display: flex;
   justify-content: center;
   gap: 18px;
   margin: 60px auto 100px;
