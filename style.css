@@ -135,3 +135,16 @@ nav a{
   text-align: center;
   box-sizing: border-box;
 }
+.boxes {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+}
+
+.box {
+  flex: 1;
+  min-height: 180px;
+  padding: 20px;
+  box-sizing: border-box;
+}
